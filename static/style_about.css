@@ -1,0 +1,90 @@
+html,
+body,
+.background-image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.row {
+  margin-top: 5%;
+  border-color: black;
+  background-color: #f1f1f1d3;
+  padding: 5%;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.row:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+}
+
+.header {
+  margin-top: 5%;
+    text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 45px;
+}
+
+  /* Style the counter cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: #f1f1f1;
+    border: black;
+    display:inline-flex;
+    margin-left: 8%;
+  }
+
+.card p {
+    font-size: 16px;
+}
+
+.observablehq {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 3%;
+    padding: 25px;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    bottom: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.observablehq:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+}
+
+#barrace {
+    text-align: center;
+
+}
+
+#home {
+    position: sticky;
+    float: left;
+    bottom: 5%;
+    margin-left: 10%;
+    font-family:  'Roboto', sans-serif;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 15px;
+  }
+
+#more {
+    position: sticky;
+    float: right;
+    bottom: 5%;
+    margin-right: 10%;
+    font-family:  'Roboto', sans-serif;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 15px;
+  }
